@@ -9,7 +9,9 @@ function MainContent(): JSX.Element {
       <JournalEntry
         title={"Discovering React components"}
         tags={["react", "components", "reusability"]}
-        body={"Today, I discovered reusable React components - I love them! It makes things so much more convenient!"}
+        body={
+          "Today, I discovered reusable React components - I love them! It makes things so much more convenient!"
+        }
         views={1}
         likes={1}
         postDate={{ month: "June", day: 13, year: 2021 }}
@@ -26,7 +28,7 @@ function MainContent(): JSX.Element {
       />
       <JournalEntry
         title={"Writing poetry"}
-        tags={["poetry","meta"]}
+        tags={["poetry", "meta"]}
         body={
           "Being creative... I'd like to do more of it. I'll write some haikus!"
         }
@@ -44,7 +46,6 @@ function MainContent(): JSX.Element {
         likes={0}
         postDate={{ month: "July", day: 28, year: 2003 }}
       />
-      
     </main>
   );
 }
