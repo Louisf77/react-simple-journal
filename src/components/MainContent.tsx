@@ -38,7 +38,7 @@ function MainContent(): JSX.Element {
         title={"The trolley problem"}
         tags={["philosophy"]}
         body={
-          "I came across the Trolley Problem recently. I found it deeplytroubling why is it called the 'Trolley Problem' when it's actually about trains?"
+          "I came across the Trolley Problem recently. I found it deeply troubling why is it called the 'Trolley Problem' when it's actually about trains?"
         }
         views={2}
         likes={0}
